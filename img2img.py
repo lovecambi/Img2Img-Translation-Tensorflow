@@ -158,8 +158,6 @@ class Img2ImgCGAN(object):
             Lgs.append(Lg)
             Ll1s.append(Ll1)
             
-            break
-        
         ofake = sess.run(self.fake_B, feed_dict={self.real_A: itest})
         
         n = int(np.sqrt(self.batch_size))
