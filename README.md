@@ -4,9 +4,9 @@ Tensorflow (v1.0) implementaion of paper "Image to Image Translation with Condit
 
 
 # Some Results
-
+Input Images:
 ![Input](https://github.com/lovecambi/Img2Img-Translation-Tensorflow/blob/master/imgs/input.jpg)
-
-![Input](https://github.com/lovecambi/Img2Img-Translation-Tensorflow/blob/master/imgs/output.jpg)
-
+Output Images:
 ![Input](https://github.com/lovecambi/Img2Img-Translation-Tensorflow/blob/master/imgs/pred.jpg)
+Groundtruth:
+![Input](https://github.com/lovecambi/Img2Img-Translation-Tensorflow/blob/master/imgs/output.jpg)
