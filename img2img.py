@@ -13,8 +13,8 @@ import os
 from glob import glob
 from ops import *
 
-datanames = glob(os.path.join("/home/kaifan/rgan/data","line3","*.jpg"))
-finalpath = "/home/kaifan/rgan/data/celebA3/"
+datanames = glob(os.path.join("data","line3","*.jpg"))
+finalpath = "data/celebA3/"
 
 class Img2ImgCGAN(object):
     
