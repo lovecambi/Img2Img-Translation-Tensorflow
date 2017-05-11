@@ -3,7 +3,9 @@
 Tensorflow (v1.0) implementaion of paper "Image to Image Translation with Conditional Generative Networks" (https://arxiv.org/abs/1611.07004)
 
 
-# Some Results on 128 x 128 CelebA faces and its simple line drawings
+# Some Results 
+### training on 80% 128 x 128 CelebA faces and its simple line drawings
+### below is on held-out testing data
 Input Images:
 ![Input](https://github.com/lovecambi/Img2Img-Translation-Tensorflow/blob/master/imgs/input.jpg)
 Output Images:
