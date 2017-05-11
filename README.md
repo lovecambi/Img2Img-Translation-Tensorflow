@@ -4,7 +4,7 @@ Tensorflow (v1.0) implementaion of paper "Image to Image Translation with Condit
 
 
 # Some Results 
-### training on 80% 128 x 128 CelebA faces and its simple line drawings
+### After two epochs training on 80% 128 x 128 CelebA faces and its simple line drawings
 ### below is on held-out testing data
 Input Images:
 ![Input](https://github.com/lovecambi/Img2Img-Translation-Tensorflow/blob/master/imgs/input.jpg)
