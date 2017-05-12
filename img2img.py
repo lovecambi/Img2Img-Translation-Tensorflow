@@ -204,7 +204,7 @@ class Img2ImgCGAN(object):
             e7 = batch_norm(e7, self.train_mode, name='g_bn_e7')
             
             e8 = conv2d(lrelu(e7), self.gf_dim*8, name='g_e8_conv')  # bx x H/256 x W/256 x 8*gf
-            e8 = batch_norm(e7, self.train_mode, name='g_bn_e8')
+            e8 = batch_norm(e8, self.train_mode, name='g_bn_e8')
             
             d1 = deconv2d(tf.nn.relu(e8), [self.batch_size, int(self.H/128), int(self.W/128), self.gf_dim*8], name='g_d1')
             d1 = tf.nn.dropout(batch_norm(d1, name='g_bn_d1'), 0.5)
